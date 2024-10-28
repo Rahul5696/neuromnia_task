@@ -27,6 +27,12 @@ This project is a full-stack application setup with separate frontend and backen
    cd neuromnia_task
    npm install
    ```
+3. Install project dependencies:
+
+   ```bash
+   cd neuromnia_task/frontend
+   npm install
+   ```
 
 **Usage:**
 
