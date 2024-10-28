@@ -1,57 +1,72 @@
-Neuromnia Task
-This project is a full-stack application setup with separate frontend and backend folders, managed through npm scripts and concurrently for running both simultaneously in development mode.
+**## neuromnia_task**
 
-Project Structure
-Frontend: Contains the frontend code, typically a React application.
-Backend: Contains the backend server code, using Express.
-Requirements
-Node.js installed on your system
-Installation
-Clone this repository:
+**Description:**
 
-bash
-Copy code
-git clone https://github.com/your-username/neuromnia_task.git
-cd neuromnia_task
-Install dependencies:
+This project is a full-stack application setup with separate frontend and backend folders, managed through npm scripts and `concurrently` for running both simultaneously in development mode.
 
-bash
-Copy code
-npm install
-Install dependencies for frontend and backend individually if needed:
+## Project Structure
 
-bash
-Copy code
-cd frontend
-npm install
-cd ../backend
-npm install
-Scripts
-Frontend: To start the frontend application only.
+- **Frontend**: Contains the frontend code, typically a React application.
+- **Backend**: Contains the backend server code, using Express.
 
-bash
-Copy code
-npm run frontend
-Backend: To start the backend server only (with nodemon for automatic restarts).
+## Requirements
 
-bash
-Copy code
-npm run backend
-Dev: To run both frontend and backend simultaneously using concurrently.
+- Node.js installed on your system
 
-bash
-Copy code
-npm run dev
-Dependencies
-Concurrently: Manages running multiple npm scripts concurrently in one terminal.
-Cors: Middleware for enabling CORS in Express.
-CSV-Parser: Used for handling CSV data parsing.
-Express: Backend framework for building RESTful APIs.
-Express-Rate-Limit: Middleware for rate-limiting API requests.
-Nodemon: Utility for monitoring and restarting the server on file changes.
-Author
+**Installation:**
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your-username/neuromnia_task.git
+   ```
+
+2. Install project dependencies:
+
+   ```bash
+   cd neuromnia_task
+   npm install
+   ```
+
+**Usage:**
+
+The project provides scripts to run the frontend and backend components separately or concurrently for development:
+
+* **Start the frontend:**
+
+   ```bash
+   npm run frontend
+   ```
+
+* **Start the backend:**
+
+   ```bash
+   npm run backend
+   ```
+
+* **Run both frontend and backend concurrently (for development):**
+
+   ```bash
+   npm run dev
+   ```
+
+**Author:**
+
 Swagat Ranjan Baral
 
-License
-This project is licensed under the ISC License.
+**License:**
 
+ISC
+
+**Dependencies:**
+
+* concurrently@^9.0.1
+* cors@^2.8.5
+* csv-parser@^3.0.0
+* express@^4.21.1
+* express-rate-limit@^7.4.1
+* nodemon@^3.1.7
+
+**Contributing:**
+
+**(Optional) If you want to encourage contributions, provide instructions on how to get involved.**
