@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Rahul5696/neuromnia_task.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Rahul5696/neuromnia_task.git
