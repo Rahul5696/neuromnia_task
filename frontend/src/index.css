@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-header {
+  background-color: #f0f8ff;
+  /* A unique light background color for the header */
+  color: #333;
+  /* Darker text for better contrast */
+  font-weight: bold;
+  /* Make header text bold */
+}
+
+.custom-body {
+  background-color: #f9f9f9;
+  /* A lighter background color for the body */
+}
+
+.table-hover tbody tr:hover {
+  background-color: #e9ecef;
+  /* Slightly darker background on row hover */
+}
