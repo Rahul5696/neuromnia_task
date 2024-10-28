@@ -18,7 +18,7 @@ This project is a full-stack application setup with separate frontend and backen
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/neuromnia_task.git
+   git clone https://github.com/Rahul5696/neuromnia_task.git
    ```
 
 2. Install project dependencies:
